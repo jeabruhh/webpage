@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0,7),rgba(0,0,0,0,7)),url(https://www.google.com/url?sa=i&url=https%3A%2F%2Finvestment.launion.gov.ph%2Fdoing-business%2Fbangar-profile%2F&psig=AOvVaw2rPVXTvkfJaTcUTGHj_Izi&ust=1710156668014000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMCojJ7M6YQDFQAAAAAdAAAAABAD);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+.button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;  
+    display: inline-block;
+    border-radius: 10px; 
+    padding: 15px 25px;
+    background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Finvestment.launion.gov.ph%2Fdoing-business%2Fbangar-profile%2F&psig=AOvVaw2rPVXTvkfJaTcUTGHj_Izi&ust=1710156668014000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMCojJ7M6YQDFQAAAAAdAAAAABAD);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Finvestment.launion.gov.ph%2Fdoing-business%2Fbangar-profile%2F&psig=AOvVaw2rPVXTvkfJaTcUTGHj_Izi&ust=1710156668014000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMCojJ7M6YQDFQAAAAAdAAAAABAD);
+}
+    .card2{
+        background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Finvestment.launion.gov.ph%2Fdoing-business%2Fbangar-profile%2F&psig=AOvVaw2rPVXTvkfJaTcUTGHj_Izi&ust=1710156668014000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMCojJ7M6YQDFQAAAAAdAAAAABAD);
+    }
+        .card3{
+            background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Finvestment.launion.gov.ph%2Fdoing-business%2Fbangar-profile%2F&psig=AOvVaw2rPVXTvkfJaTcUTGHj_Izi&ust=1710156668014000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMCojJ7M6YQDFQAAAAAdAAAAABAD);
+        }
+            .card4{
+                background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Finvestment.launion.gov.ph%2Fdoing-business%2Fbangar-profile%2F&psig=AOvVaw2rPVXTvkfJaTcUTGHj_Izi&ust=1710156668014000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMCojJ7M6YQDFQAAAAAdAAAAABAD);
+            }
+.card:hover{
+    transform: translate(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+}
